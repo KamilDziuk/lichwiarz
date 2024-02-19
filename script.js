@@ -16,3 +16,11 @@ $(document).on('click', 'a', function (event) {
 });
 //scroll end
 
+//range
+const value = document.querySelector(".box-minmax");
+const input = document.querySelector("#rs-range-line");
+value.textContent = input.value;
+input.addEventListener("input", (event) => {
+  value.textContent = event.target.value;
+});
+//range end
