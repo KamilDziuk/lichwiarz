@@ -1,0 +1,739 @@
+
+html,
+body{
+  background-color: rgba(151, 151, 151, 0.26);
+}
+/* Multicolored background   */
+.multicoloredBackground
+
+{
+	background: linear-gradient(-45deg, #08a0ff,  #0e4be6, #f36c44,  #f76306, #cf2222);
+	background-size: 400% 400%;
+	animation: gradient 7s ease infinite;
+	height: 1100px;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 60%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+/* Multicolored background end  */
+/* Top bar */
+.logo {
+  width: 183px;
+   height:77.86px;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+
+.logo-head {
+  width: 183px;
+  height: 77.86px;
+}
+/* Top bar end*/
+
+
+.col-sm-12 {
+  top: 100px;
+  margin-bottom: 15px;
+
+}
+.col-md-3 {
+  width: 100%;
+}
+.contentSection {
+
+  position: relative;
+  display: grid;
+  justify-content: left;
+  
+}
+.contentText {
+
+  font-family: 'Abhaya Libre', sans-serif;
+      font-weight: 700;
+      font-size: 30px;
+      color: #fff;
+    margin-bottom:15px;
+    animation-delay: calc(var(--delay-anim) + var(--time-anim) * 0.25);
+  }
+
+  .contentTitle {
+    margin-top: 15%;
+    font-family: 'Abhaya Libre', sans-serif;
+    color: #fff;
+    font-size: 40px;
+    font-style: italic;
+  animation-delay: calc(var(--delay-anim) + var(--time-anim) * 0.2);
+}
+
+.contentTitle span {
+  color: var(--color-link-hover);
+}
+
+
+/* Loan calculation block */
+.loanCalculationBlock
+{
+  background: linear-gradient(300deg, #ffffff 0%, #ffffff00 0%, #ffffff3a 70%);
+  backdrop-filter: blur(4px);
+border-radius: 10px;
+margin-left: 70%;
+margin-top: -45%;
+width: 40%;
+height: 500px;
+
+
+}
+/*  Loan calculation block end */
+.btn-primary :active {
+  border-style: none;
+}
+.btn-primary {
+  font-family: 'Abhaya Libre', sans-serif;
+  background: linear-gradient(300deg, #ffffff 0%, #ffffff00 0%, #ffffff3a 70%);
+  backdrop-filter: blur(4px);
+  border-style: none;
+  font-size: 18px;
+  padding: 20px 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.btn-primary:hover {
+  backdrop-filter: blur(4px);
+  color: rgba(0, 0, 0, 0.822);
+  background-color: #ffffff3a;
+  background-size: 100%;
+ 
+}
+.fixed-top {
+    max-width: 1140px;
+    margin: 20px auto;
+    transition: 0.2 all linear;
+}
+h1 {
+    margin-top: 15%;
+    font-family: 'Abhaya Libre', sans-serif;
+    color: rgba(0, 0, 0, 0.822);
+    font-size: 40px;
+    font-style: italic;
+
+}
+h2 {
+  font-family: 'Abhaya Libre', sans-serif;
+    font-weight: 700;
+    font-size: 75px;
+    color: rgba(0, 0, 0, 0.822);
+
+}
+h3 {
+    margin-bottom: 5%;
+    text-align: left;
+}
+h4 {
+  font-family: 'Abhaya Libre', sans-serif;
+    position: relative;
+    color: rgba(0, 0, 0, 0.822);
+    font-style: italic;
+    margin-bottom: 30px;
+    line-height: 0px;
+    margin-top: 25px;
+}
+h5 {
+color: #ffffff;
+}
+h6 {
+    text-align: left;
+}
+
+a.nav-link {
+  font-family: 'Abhaya Libre', sans-serif;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.822);
+    width: 142px;
+
+}
+a.nav-link:hover {
+  color: rgba(0, 0, 0, 0.822) !important;
+  
+}
+
+ /* Services* / AboutUs */
+#services {
+  box-sizing: border-box;
+
+margin-top: 0px;
+margin-bottom: 100px;
+}
+.services-content h4 {
+  font-family: 'Abhaya Libre', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.822);
+  margin-top: 24px;
+}
+.services-content p,
+.aboutUs-content p {
+  font-family: 'Abhaya Libre', sans-serif;
+  color: rgba(0, 0, 0, 0.822);
+  font-size: 14px;
+  text-align: left;
+}
+.services-content {
+  border-radius: 10px;
+  padding: 20px;
+  background: linear-gradient(-90deg, #ffffff 0%, #ffffff00 0%,  #ffffff 100%);
+  backdrop-filter: blur(4px);
+  display: inline-block;
+  
+}
+
+
+
+.services-content:hover {
+  background: #ffffff3a;
+  backdrop-filter: blur(4px);
+  background-size: 100%;
+}
+ /* Services / AboutUs end*/
+
+ .item-circle {
+  border: 2px solid #ffff;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.contact-top h3 {
+  font-family: 'Abhaya Libre', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+.contact-top p {
+  font-family: 'Abhaya Libre', sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: 70px;
+}
+.text-container {
+  font-family: 'Abhaya Libre', sans-serif;
+    margin-bottom: 20px;
+}
+.text-container img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.info {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 9999999;
+  margin: 1.5rem;
+}
+
+
+
+
+.black-block {
+  flex: 0 0 auto;
+  width: 100%;
+  border-radius: 10px;
+  background:  #ffffff3a;
+  backdrop-filter: blur(4px);
+  color: rgba(0, 0, 0, 0.822);
+  padding: 20px;
+  margin-right: 10px;
+  height: 385px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+.aboutUs-content .row {
+    margin-bottom: 90px;
+}
+
+.aboutUs-content h4 {
+  font-family: 'Abhaya Libre', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.822);
+}
+
+.aboutUs-content {
+    position: relative;
+    text-align: center;
+}
+
+.aboutUs-content:before {
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    position: absolute;
+    width: 4px;
+    background:  #ffffff3a;
+    margin-left: -2px;
+}
+
+.about-circle:before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: "";
+    width: 200px;
+    height: 200px;
+    background:  #ffffff3a;
+    border-radius: 50%;
+    border: 7px solid #ffffff3a;
+    left: 50%;
+    margin-left: -100px;
+}
+
+ /* AboutUs end */
+.rounded-circle {
+    border-radius: 0% !important;
+}
+
+#socialIcons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icon {
+
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.team-content p {
+    width: 85%;
+    margin: 50px auto;
+    font-family: 'Abhaya Libre', sans-serif;
+    color: rgba(0, 0, 0, 0.822);
+    font-size: 16px;
+}
+
+/* Footer */
+#footer {
+    padding: 20px 0px;
+    background: #ffffff3a;
+    backdrop-filter: blur(4px);
+    color: #ffffff3a;
+    line-height: 10px;
+    
+}
+
+#footer a {
+  color: rgba(0, 0, 0, 0.822);
+}
+
+.footer-item :hover {
+    text-decoration: none;
+}
+#socialIcons {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#socialIcons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#socialIcons a {
+  color: rgba(0, 0, 0, 0.822);
+    font-size: 24px;
+}
+
+.company-social-icons {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.company-social-icon {
+    display: inline;
+    padding-left: 9px;
+    padding-right: 9px;
+    color: rgba(0, 0, 0, 0.822);
+}
+
+.company-social-icon i {
+    background: #ffffff3a;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.change-fixed-top {
+    margin-top: 0px;
+    background: #ffffff3a;
+    backdrop-filter: blur(4px);
+    max-width: 100%;
+}
+
+/* Footer end  */
+@media (max-width: 1300px) {
+
+  .col-sm-12 {
+    top: 150px;
+    margin-bottom: 15px;
+  
+  }
+/* Loan calculation block */
+.loanCalculationBlock
+{
+
+margin-left: 50%;
+margin-top: -50%;
+width: 50%;
+height: 400px;
+
+}
+/*  Loan calculation block end */
+.contentSection
+{
+  margin-top:-80px;
+}
+
+/* Services */
+#services {
+ 
+ margin-top:0px;
+
+ }
+
+/* Services end */
+}
+.slide-opinions {
+  width: 40%;
+  }
+
+
+@media (max-width: 991px) {
+  .logo-head {
+    width: 183px;
+    height:77.86px;
+}
+
+a.nav-link {
+  font-family: 'Abhaya Libre', sans-serif;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.822);
+  text-align: center;
+  width: 100%;
+  transition: color .5s ease;
+  -webkit-transition: color .5s ease;
+  -moz-transition: color .5s ease;
+  -o-transition: color .5s ease;
+  text-decoration: none;
+} 
+
+
+
+ .col-sm-12 {
+  top: 40px;
+}
+
+.contentSection
+{
+    margin-top:70px;
+}
+
+/* Services */
+ #services {
+  
+   margin-top:0px;
+   }
+ /* Services end */
+
+   .company-social-icon {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .company-social-icon i {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+ 
+    .typewriter {
+        font-size: 34px;
+    }
+
+    h1 {
+        margin-top: 280px;
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 55px;
+    }
+/* Loan calculation block */
+.loanCalculationBlock
+{
+
+margin-left: 0%;
+margin-top: 5%;
+width: 90%;
+height: 90%;
+
+}
+/*  Loan calculation block end */
+
+  
+/* Footer */
+    #footer p {
+        font-size: 11px;
+    }
+   
+}
+/* Footer end  */
+
+@media (max-width: 767px) {
+  #topBar {
+    height: 600px;
+}
+.logo-head {
+  width: 183px;
+  height:77.86px;
+}
+
+.col-sm-12 {
+  top: -550px ;
+
+}
+.contentSection
+{
+    margin-top:70px;
+}
+
+/* Services */
+ #services {
+   
+   margin-top:0px;
+   }
+/* Services end */
+ 
+    .typewriter {
+        font-size: 25px;
+    }
+
+    .navbar-collapse {
+        background: #ffffff3a;
+    }
+
+    .navbar-light .navbar-toggler {
+        border: 1px solid #ffffff3a;
+    }
+
+    h1 {
+        margin-top: 100px;
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+
+    h2 {
+        font-size: 50px;
+        color: rgba(0, 0, 0, 0.822);
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        width: 100%;
+    }
+    /* Opinions */
+    .slide-opinions {
+        width: 74%;
+    }
+    .opinions-left
+{
+
+margin-top:330px;
+margin-left: 170px;
+
+}
+.opinions-right 
+{
+top:1px;
+margin-left:  100px;
+
+}
+
+
+  /* Opinions end */
+    .navbar-toggler {
+        background: #ffffff3a;
+        outline: none;
+        border: none;
+    }
+
+    textarea {
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+
+    .card-portfolio img {
+        width: 100%;
+    }
+
+    .card-portfolio {
+        border-style: none;
+        margin-bottom: 30px;
+    }
+
+}
+
+
+@media (max-width: 575px) {
+
+  /* topBar */
+  #topBar {
+    height: 600px;
+}
+
+.logo-head {
+  width: 183px;
+  height:77.86px;
+}
+
+.logo {
+  width: 183px;
+  height: 77.86px;
+  margin-bottom: 50px;
+}
+
+.navbar-toggler {
+  background: #ffffff3a;
+  outline: none;
+  border: none;
+}
+
+
+  .col-sm-12 {
+    top: -500px;
+  }
+.col-md-3 {
+  width: 100%;
+}
+
+  .contentSection
+  {
+    
+    margin-top:30px;
+  
+  }
+
+  .contentText {
+
+    font-size: 23px;
+  
+}
+
+ /* Services */
+  #services {
+    
+    margin-top:0px;
+    }
+  
+    .services-top h3 {
+        margin-left: 15px;
+    }
+     /* Services end*/
+
+    h1 {
+
+        margin-top: 30%;
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+ 
+    .typewriter {
+        font-size: 20px;
+        padding-left: 5px
+    }
+
+  
+} 
+/* portfolio */
+@media (min-width: 480px) {
+  .gallery {
+    -moz-column-count: 2;
+         column-count: 2;
+  }
+}
+/* portfolio end */
+ /* Opinions end */
+@media (max-width: 450px){
+
+
+
+  .contentSection
+  {
+      margin-top: 4px;
+  }
+
+  .contentText {
+    
+    font-size: 23px;
+ 
+}
+
+  .btn-primary {
+  
+    font-size: 12px;
+  
+  }
+
+   /* Services*/
+  #services {
+    margin-top: 0px;
+    }
+     /* Services end*/
+
+    .typewriter {
+        font-size: 16px;
+        padding-left: 5px;
+    }
+    h4
+    {
+        font-size: 15px;
+        
+    }
+ 
+
+  }
+
+
