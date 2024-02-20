@@ -53,6 +53,21 @@ margin-top: 20px;
   justify-content: left;
   
 }
+.containerText {
+  display: flex;
+
+  
+}
+.text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10, .text11, .text12, .text13, .text14 {
+  justify-content: center; 
+  align-items: center; 
+  flex: 1;
+  color: #fff;
+ margin: 2px 43px;
+ font-size: 13px;
+ width: 85px;
+}
+
 .contentText {
 
   font-family: 'Abhaya Libre', sans-serif;
@@ -72,9 +87,6 @@ margin-top: 20px;
   animation-delay: calc(var(--delay-anim) + var(--time-anim) * 0.2);
 }
 
-.contentTitle span {
-  color: var(--color-link-hover);
-}
 
 
 /* Loan calculation block */
@@ -86,7 +98,7 @@ border-radius: 10px;
 margin-left: 70%;
 margin-top: -45%;
 width: 40%;
-height: 500px;
+height: 600px;
 
 
 }
@@ -150,16 +162,21 @@ color: #ffffff;
 h6 {
     text-align: left;
 }
+.nav-link {
 
+    color: rgb(255, 255, 255) !important;
+;
+
+}
 a.nav-link {
   font-family: 'Abhaya Libre', sans-serif;
     font-size: 17px;
-    color: rgba(0, 0, 0, 0.822);
+    color: rgba(255, 255, 255, 0.822);
     width: 142px;
 
 }
 a.nav-link:hover {
-  color: rgba(0, 0, 0, 0.822) !important;
+  color: rgba(255, 255, 255, 0.822) !important;
   
 }
 /* ramge */
@@ -170,22 +187,30 @@ a.nav-link:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  
 }
 
 .box-minmax {
+ 
   margin-top: 30px;
-  width: 308px;
+  
+  width: 70px;
   display: flex;
   justify-content: space-between;
-  font-size: 20px;
+  font-size: 22px;
+  margin-left: -2px;
   color: #FFFFFF;
+
 }
 .box-minmax span:first-child {
-  margin-left: 10px;
+  justify-content: center; 
+  align-items: center; 
+
 }
 
+
 .range-slider {
-  margin-top: 30vh;
+  margin-top: 5vh;
 }
 
 .rs-range {
@@ -198,22 +223,14 @@ a.nav-link:hover {
 }
 .rs-range::-webkit-slider-runnable-track {
   width: 100%;
-  height: 1px;
+  height: 5px;
   cursor: pointer;
   box-shadow: none;
   background: #ffffff;
   border-radius: 0px;
   border: 0px solid #010101;
 }
-.rs-range::-moz-range-track {
-  width: 100%;
-  height: 1px;
-  cursor: pointer;
-  box-shadow: none;
-  background: #ffffff;
-  border-radius: 0px;
-  border: 0px solid #010101;
-}
+
 .rs-range::-webkit-slider-thumb {
   box-shadow: none;
   border: 0px solid #ffffff;
@@ -226,52 +243,10 @@ a.nav-link:hover {
   -webkit-appearance: none;
   margin-top: -20px;
 }
-.rs-range::-moz-range-thumb {
-  box-shadow: none;
-  border: 0px solid #ffffff;
-  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
-  height: 42px;
-  width: 22px;
-  border-radius: 22px;
-  background: white;
-  cursor: pointer;
-  -webkit-appearance: none;
-  margin-top: -20px;
-}
-.rs-range::-moz-focus-outer {
-  border: 0;
-}
 
-.rs-label {
-  position: relative;
-  transform-origin: center center;
-  display: block;
-  width: 98px;
-  height: 98px;
-  background: transparent;
-  border-radius: 50%;
-  line-height: 30px;
-  text-align: center;
-  font-weight: bold;
-  padding-top: 22px;
-  box-sizing: border-box;
-  border: 2px solid #fff;
-  margin-top: 20px;
-  margin-left: -38px;
-  left: attr(value);
-  color: #fff;
-  font-style: normal;
-  font-weight: normal;
-  line-height: normal;
-  font-size: 36px;
-}
-.rs-label::after {
-  content: "kg";
-  display: block;
-  font-size: 20px;
-  letter-spacing: 0.07em;
-  margin-top: -2px;
-}
+
+
+
 /* 
 range end */
  /* Services* / AboutUs */
@@ -510,7 +485,9 @@ margin-bottom: 100px;
 
 /* Footer end  */
 @media (max-width: 1300px) {
-
+  .range-slider {
+    margin-top: 25vh;
+  }
   .col-sm-12 {
     top: 150px;
     margin-bottom: 15px;
@@ -523,7 +500,7 @@ margin-bottom: 100px;
 margin-left: 50%;
 margin-top: -50%;
 width: 50%;
-height: 400px;
+height: 610px;
 
 }
 /*  Loan calculation block end */
@@ -558,7 +535,7 @@ height: 400px;
   .multicoloredBackground
 {
 
-	height: 1200px;
+	height: 1400px;
 }
   .logo-head {
     width: 183px;
@@ -568,7 +545,7 @@ height: 400px;
 a.nav-link {
   font-family: 'Abhaya Libre', sans-serif;
   font-size: 14px;
-  color: rgba(0, 0, 0, 0.822);
+  color: rgba(255, 255, 255, 0.822);
   text-align: center;
   width: 100%;
   transition: color .5s ease;
@@ -592,7 +569,7 @@ a.nav-link {
 /* Services */
  #services {
   
-   margin-top:60px;
+   margin-top:50px;
    }
  /* Services end */
 
@@ -627,7 +604,7 @@ a.nav-link {
 margin-left: 0%;
 margin-top: 5%;
 width: 90%;
-height: 60%;
+height: 77%;
 
 }
 /*  Loan calculation block end */
@@ -693,23 +670,6 @@ height: 60%;
     h3 {
         width: 100%;
     }
-    /* Opinions */
-    .slide-opinions {
-        width: 74%;
-    }
-    .opinions-left
-{
-
-margin-top:330px;
-margin-left: 170px;
-
-}
-.opinions-right 
-{
-top:1px;
-margin-left:  100px;
-
-}
 
 
   /* Opinions end */
@@ -732,9 +692,16 @@ margin-left:  100px;
         border-style: none;
         margin-bottom: 30px;
     }
+  
+}
+@media (max-width: 510px) {
+  .multicoloredBackground
+{
 
+	height: 1350px;
 }
 
+}
 
 @media (max-width: 575px) {
 
@@ -755,7 +722,7 @@ margin-left:  100px;
 }
 
 .navbar-toggler {
-  background: #ffffff3a;
+  background: #ffffff;
   outline: none;
   border: none;
 }
@@ -791,7 +758,7 @@ margin-left:  100px;
  /* Services */
   #services {
     
-    margin-top:200px;
+    margin-top:00px;
     }
   
     .services-top h3 {
@@ -831,7 +798,7 @@ margin-left:  100px;
   .multicoloredBackground
   {
     
-    height: 1350px;
+    height: 1450px;
   }
   .rs-range {
  
@@ -877,5 +844,12 @@ margin-left:  100px;
  
 
   }
+  @media (max-width: 200px){
 
+    .multicoloredBackground
+    {
+      
+      height: 1750px;
+    }
+  }
 

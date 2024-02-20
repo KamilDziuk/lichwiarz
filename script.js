@@ -17,10 +17,19 @@ $(document).on('click', 'a', function (event) {
 //scroll end
 
 //range
-const value = document.querySelector(".box-minmax");
-const input = document.querySelector("#rs-range-line");
-value.textContent = input.value;
-input.addEventListener("input", (event) => {
-  value.textContent = event.target.value;
+let input = document.querySelector('#rs-range-line');
+let value = document.querySelector('.box-minmax');
+let text14 = document.querySelector('.text14');
+let text2 = document.querySelector('.text2');
+let text12 = document.querySelector('.text12');
+text14.innerHTML =  value.textContent;
+text12.innerHTML =  value.textContent;
+text2.innerHTML =  value.textContent;
+input.addEventListener('input', (event) =>
+{
+  value.textContent = event.target.value + ' zł';
+  text14.innerHTML =  value.textContent;
+  text12.innerHTML =  value.textContent;
+  text2.innerHTML =  value.textContent;
 });
 //range end
